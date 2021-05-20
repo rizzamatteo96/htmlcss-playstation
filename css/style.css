@@ -5,13 +5,21 @@
     box-sizing: border-box;
 }
 
-/* HEADER */
-header .header-top img{
-    width: 100px;
+.mt-100{
+    margin-top: 100px;
 }
 
 .mt-300{
     margin-top: 300px;
+}
+
+.ms-bg-btn{
+    background-color: #cd3d0f;
+}
+
+/* HEADER */
+header .header-top img{
+    width: 100px;
 }
 
 /* JUMBOTRON */
@@ -21,12 +29,15 @@ header .header-top img{
     background-position: center;
 }
 
+.ms-rounded-20{
+    border-radius: 20px;
+}
+
 /* MAIN */
 #it-takes-two{
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
     background-size: cover;
     background-position: center;
-    height: 500px;
 }
 
 #play-plus{
@@ -35,6 +46,10 @@ header .header-top img{
 
 #play-now{
     background-color: #161c3b;
+}
+
+.box-img.not-active{
+    opacity: 0.7;
 }
 
 /* FOOTER */
