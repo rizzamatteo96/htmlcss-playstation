@@ -10,12 +10,15 @@ header .header-top img{
     width: 100px;
 }
 
+.mt-300{
+    margin-top: 300px;
+}
+
 /* JUMBOTRON */
 .jumbotron{
     background-image: url('../img/jumbo-bg.png');
     background-size: cover;
     background-position: center;
-    height: 500px;
 }
 
 /* MAIN */
