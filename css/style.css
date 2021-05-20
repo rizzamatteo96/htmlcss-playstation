@@ -57,6 +57,14 @@ footer{
     background-color: #00439c;
 }
 
+footer img.ps-footer{
+    width: ;
+}
+
+footer img.globe{
+    width: 30px;
+}
+
 /* debug */
 .debug .box{
     width: 100%;
