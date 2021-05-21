@@ -30,11 +30,20 @@ header .header-top img{
     width: 100px;
 }
 
+.header-top{
+    height: 30px;
+}
+
+.header-bottom{
+    height: 80px;
+}
+
 /* JUMBOTRON */
 .jumbotron{
     background-image: url('../img/jumbo-bg.png');
     background-size: cover;
     background-position: center;
+    margin-top: 110px;
 }
 
 .ms-rounded-20{
