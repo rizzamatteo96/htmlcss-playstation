@@ -17,7 +17,15 @@
     background-color: #cd3d0f;
 }
 
+.pointer:hover{
+    cursor: pointer;
+}
+
 /* HEADER */
+header{
+    z-index: 9999;
+}
+
 header .header-top img{
     width: 100px;
 }
@@ -31,6 +39,10 @@ header .header-top img{
 
 .ms-rounded-20{
     border-radius: 20px;
+}
+
+.ms-rounded-25{
+    border-radius: 25px;
 }
 
 /* MAIN */
@@ -50,6 +62,10 @@ header .header-top img{
 
 .box-img.not-active{
     opacity: 0.7;
+}
+
+.box-img.not-active:hover{
+    opacity: 1;
 }
 
 /* FOOTER */

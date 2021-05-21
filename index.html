@@ -17,10 +17,10 @@
 <body>
     
     <!-- inizio header -->
-    <header>
+    <header class="position-fixed top-0 start-0 end-0">
         <!-- inizio header top -->
         <div class="header-top bg-dark text-end">
-            <div class="container-xl">
+            <div class="container-fluid">
                 <img src="img/sony_logo.svg" alt="sony logo" class="my-1">
             </div>
         </div>
@@ -28,144 +28,142 @@
 
         <!-- inizio header bottom -->
         <div class="header-bottom">
-            <div class="container-xl">
-                <nav class="navbar navbar-expand-lg navbar-light bg-white">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#">
-                            <img src="img/play_logo.svg" alt="">
-                        </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <!-- inizio parte sinistra navbar -->
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <!-- inizio item giochi -->
-                                <li class="nav-item dropdown mx-1">
-                                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Giochi
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">opzione 1</a></li>
-                                    <li><a class="dropdown-item" href="#">opzione 2</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">opzione 3</a></li>
-                                    </ul>
-                                </li>
-                                <!-- fine item giochi -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/play_logo.svg" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <!-- inizio parte sinistra navbar -->
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <!-- inizio item giochi -->
+                            <li class="nav-item dropdown mx-1">
+                                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Giochi
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">opzione 1</a></li>
+                                <li><a class="dropdown-item" href="#">opzione 2</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">opzione 3</a></li>
+                                </ul>
+                            </li>
+                            <!-- fine item giochi -->
 
-                                <!-- inizio item Hardware -->
-                                <li class="nav-item dropdown mx-1">
-                                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Hardware
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">opzione 1</a></li>
-                                    <li><a class="dropdown-item" href="#">opzione 2</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">opzione 3</a></li>
-                                    </ul>
-                                </li>
-                                <!-- fine item Hardware -->
+                            <!-- inizio item Hardware -->
+                            <li class="nav-item dropdown mx-1">
+                                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Hardware
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">opzione 1</a></li>
+                                <li><a class="dropdown-item" href="#">opzione 2</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">opzione 3</a></li>
+                                </ul>
+                            </li>
+                            <!-- fine item Hardware -->
 
-                                <!-- inizio item Servizi -->
-                                <li class="nav-item dropdown mx-1">
-                                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Servizi
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">opzione 1</a></li>
-                                    <li><a class="dropdown-item" href="#">opzione 2</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">opzione 3</a></li>
-                                    </ul>
-                                </li>
-                                <!-- fine item Servizi -->
+                            <!-- inizio item Servizi -->
+                            <li class="nav-item dropdown mx-1">
+                                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Servizi
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">opzione 1</a></li>
+                                <li><a class="dropdown-item" href="#">opzione 2</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">opzione 3</a></li>
+                                </ul>
+                            </li>
+                            <!-- fine item Servizi -->
 
-                                <!-- inizio item Novità -->
-                                <li class="nav-item dropdown mx-1">
-                                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Novità
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">opzione 1</a></li>
-                                    <li><a class="dropdown-item" href="#">opzione 2</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">opzione 3</a></li>
-                                    </ul>
-                                </li>
-                                <!-- fine item Novità -->
+                            <!-- inizio item Novità -->
+                            <li class="nav-item dropdown mx-1">
+                                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Novità
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">opzione 1</a></li>
+                                <li><a class="dropdown-item" href="#">opzione 2</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">opzione 3</a></li>
+                                </ul>
+                            </li>
+                            <!-- fine item Novità -->
 
-                                <!-- inizio item Fai acquisti -->
-                                <li class="nav-item dropdown mx-1">
-                                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Fai acquisti
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">opzione 1</a></li>
-                                    <li><a class="dropdown-item" href="#">opzione 2</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">opzione 3</a></li>
-                                    </ul>
-                                </li>
-                                <!-- fine item Fai acquisti -->
+                            <!-- inizio item Fai acquisti -->
+                            <li class="nav-item dropdown mx-1">
+                                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Fai acquisti
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">opzione 1</a></li>
+                                <li><a class="dropdown-item" href="#">opzione 2</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">opzione 3</a></li>
+                                </ul>
+                            </li>
+                            <!-- fine item Fai acquisti -->
 
-                                <!-- inizio item Supporto -->
-                                <li class="nav-item dropdown mx-1">
-                                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Supporto
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">opzione 1</a></li>
-                                    <li><a class="dropdown-item" href="#">opzione 2</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">opzione 3</a></li>
-                                    </ul>
-                                </li>
-                                <!-- fine item Supporto -->
-                            </ul>
-                            <!-- fine parte sinistra navbar -->
+                            <!-- inizio item Supporto -->
+                            <li class="nav-item dropdown mx-1">
+                                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Supporto
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">opzione 1</a></li>
+                                <li><a class="dropdown-item" href="#">opzione 2</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">opzione 3</a></li>
+                                </ul>
+                            </li>
+                            <!-- fine item Supporto -->
+                        </ul>
+                        <!-- fine parte sinistra navbar -->
 
-                            <!-- inizio parte destra navbar -->
-                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                                <!-- inizio item My playstation -->
-                                <li class="nav-item dropdown mx-1">
-                                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    My PlayStation
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">opzione 1</a></li>
-                                    <li><a class="dropdown-item" href="#">opzione 2</a></li>
-                                    <li><hr class="dropdown-divider"></li>
-                                    <li><a class="dropdown-item" href="#">opzione 3</a></li>
-                                    </ul>
-                                </li>
-                                <!-- fine item My playstation -->
+                        <!-- inizio parte destra navbar -->
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <!-- inizio item My playstation -->
+                            <li class="nav-item dropdown mx-1">
+                                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                My PlayStation
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">opzione 1</a></li>
+                                <li><a class="dropdown-item" href="#">opzione 2</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">opzione 3</a></li>
+                                </ul>
+                            </li>
+                            <!-- fine item My playstation -->
 
-                                <!-- inizio item pulsante accedi -->
-                                <li class="nav-item mx-1">
-                                    <button type="button" class="btn btn-dark rounded-pill">Accedi</button>
-                                </li>
-                                <!-- fine item pulsante accedi -->
+                            <!-- inizio item pulsante accedi -->
+                            <li class="nav-item mx-1">
+                                <button type="button" class="btn btn-dark rounded-pill">Accedi</button>
+                            </li>
+                            <!-- fine item pulsante accedi -->
 
-                                <!-- inizio item lente -->
-                                <li class="nav-item mx-1">
-                                    <img src="img/lens.svg" alt="lens logo" class="w-50 align-middle">
-                                </li>
-                                <!-- fine item lente -->
-                            </ul>
-                            <!-- fine parte destra navbar -->
-                        </div>
+                            <!-- inizio item lente -->
+                            <li class="nav-item mx-1">
+                                <img src="img/lens.svg" alt="lens logo" class="w-50 align-middle">
+                            </li>
+                            <!-- fine item lente -->
+                        </ul>
+                        <!-- fine parte destra navbar -->
                     </div>
-                </nav>
-            </div>
+                </div>
+            </nav>
         </div>
         <!-- fine header bottom -->
     </header>
     <!-- fine header -->
 
     <!-- inizio jumbotron -->
-    <div class="jumbotron">
+    <div class="jumbotron mt-100">
         <!-- inizio contenitore -->
         <div class="container-xl h-100">
             <div class="row align-items-end h-100 pb-3">
@@ -182,11 +180,11 @@
 
     <div class="jumbotron-bottom mt-4">
         <div class="container-xl">
-            <div class="row">
+            <div class="row g-3">
                 <!-- inizio prima immagine -->
                 <div class="col-6 col-sm-4 col-lg-2">
-                    <div class="box-img ms-rounded-20 overflow-hidden">
-                        <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal small" class="w-100">
+                    <div class="box-img active border border-3 border-primary ms-rounded-25 overflow-hidden p-1">
+                        <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal small" class="w-100 ms-rounded-20">
                     </div>
                 </div>
                 <!-- fine prima immagine -->
@@ -272,46 +270,46 @@
                 <!-- inizio bottom sezione -->
                 <div class="row g-3 justify-content-md-around">
                     <!-- inizio prima immagine -->
-                    <div class="col-4 col-md-2">
-                        <div class="box-img text-center">
+                    <div class="col-4 col-md-2 border-bottom border-3 border-primary">
+                        <div class="box-img text-center pointer">
                             <img src="img/playstation-5-thumb.png" alt="playstation 5" class="w-100">
-                            <span>Console PS5</span>
+                            <span class="d-none d-md-inline">Console PS5</span>
                         </div>
                     </div>
                     <!-- fine prima immagine -->
 
                     <!-- inizio seconda immagine -->
                     <div class="col-4 col-md-2">
-                        <div class="box-img not-active text-center">
+                        <div class="box-img not-active text-center pointer">
                             <img src="img/joypad-thumb.png" alt="joypad playstation 5" class="w-100">
-                            <span>Controller wireless DualSense</span>
+                            <span class="d-none d-md-inline">Controller wireless DualSense</span>
                         </div>
                     </div>
                     <!-- fine seconda immagine -->
 
                     <!-- inizio terza immagine -->
                     <div class="col-4 col-md-2">
-                        <div class="box-img not-active text-center">
+                        <div class="box-img not-active text-center pointer">
                             <img src="img/headset-thumb.png" alt="headset playstation 5" class="w-100">
-                            <span>Cuffie wireless con microfono PULSE 3</span>
+                            <span class="d-none d-md-inline">Cuffie wireless con microfono PULSE 3</span>
                         </div>
                     </div>
                     <!-- fine terza immagine -->
 
                     <!-- inizio quarta immagine -->
                     <div class="col-4 col-md-2">
-                        <div class="box-img not-active text-center">
+                        <div class="box-img not-active text-center pointer">
                             <img src="img/remote-thumb.png" alt="remote playstation 5" class="w-100">
-                            <span>Telecomando Media</span>
+                            <span class="d-none d-md-inline">Telecomando Media</span>
                         </div>
                     </div>
                     <!-- fine quarta immagine -->
 
                     <!-- inizio quinta immagine -->
                     <div class="col-4 col-md-2">
-                        <div class="box-img not-active text-center">
+                        <div class="box-img not-active text-center pointer">
                             <img src="img/camera-thumb.jpg" alt="camera playstation 5" class="w-100">
-                            <span>Telecamera HD</span>
+                            <span class="d-none d-md-inline">Telecamera HD</span>
                         </div>
                     </div>
                     <!-- fine quinta immagine -->
@@ -525,7 +523,7 @@
             <div class="container-xl">
                 <div class="row align-items-center">
                     <!-- inizio parte sinistra -->
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 my-5">
                         <img src="img/ps-plus-logo.png" alt="play station plus logo" class="w-50">
                         <p class="my-4">Migliora la tua esperienza PlayStation con l'accesso a multigiocatore online, giochi mensili, sconti esclusivi e altro ancora.</p>
                         <button type="button" class="btn btn-light disabled text-primary rounded-pill">Esplora PlayStation Plus</button>
@@ -549,7 +547,7 @@
                 <div class="row">
                     <div class="col-12 text-center">
                         <h2 class="fs-1">Nuovi sconti su PlayStation Store</h2>
-                        <div class="text-secondary mt-4 mb-5">
+                        <div class="text-secondary mt-4">
                             Sconti pazzeschi, collezioni curate e saldi stagionali su PS5, PS4 e PS VR, tutti in un unico posto.
                         </div>
                     </div>
@@ -559,19 +557,19 @@
                 <!-- inizio contenuto sezione -->
                 <div class="row">
                     <!-- inizio prima immagine -->
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-4 mt-5">
                         <img src="img/playstation-store-games-under-20-spotlight.jpg" alt="games under 20" class="w-100">
                     </div>
                     <!-- fine prima immagine -->
 
                     <!-- inizio seconda immagine -->
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-4 mt-5">
                         <img src="img/playstation-store-golden-week-sale-spotlight.jpg" alt="golden week" class="w-100">
                     </div>
                     <!-- fine seconda immagine -->
 
                     <!-- inizio terza immagine -->
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-4 mt-5">
                         <img src="img/playstation-store-free-to-play-spotlight.png" alt="free to play" class="w-100">
                     </div>
                     <!-- fine terza immagine -->
@@ -586,7 +584,7 @@
             <div class="container-xl">
                 <div class="row align-items-center">
                     <!-- inizio parte sinistra -->
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 my-5">
                         <img src="img/ps-now-logo-two-column.png" alt="play station now logo" class="w-50">
                         <p class="my-4 text-white">Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4, PS3 e PS2 su PS4 o su PC Windows, con nuovi titoli aggiunti ogni mese.</p>
                         <button type="button" class="btn btn-light rounded-pill">Esplora PlayStation Plus</button>
