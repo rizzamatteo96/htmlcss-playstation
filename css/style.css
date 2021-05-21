@@ -30,6 +30,10 @@
     border-radius: 25px;
 }
 
+.ms-w-10{
+    width: 10px;
+}
+
 /* HEADER */
 header{
     z-index: 9999;
@@ -46,6 +50,19 @@ header .header-top img{
 .header-bottom{
     height: 80px;
 }
+
+/* start animation to turn dropdown arrow */
+.arrow-dad[aria-expanded="true"] .arrow{
+    transform: rotate(-180deg);
+}
+.arrow {
+    transition: 0.3s;
+}
+/* stop animation to turn dropdown arrow */
+
+
+
+
 
 /* JUMBOTRON */
 .jumbotron{
