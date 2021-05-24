@@ -14,9 +14,8 @@
 .btn:hover{opacity:0.9;}
 
 .jumbotron-bottom .box-img:hover,
-.pointer:hover{
-    cursor: pointer;
-}
+.box-ps5:hover,
+.pointer:hover{cursor: pointer;}
 
 /* text dimensions */
 h2{font-size: 45px;}
@@ -24,6 +23,9 @@ h2{font-size: 45px;}
 .ms-fs-1_1{font-size: 1.1rem;}
 .ms-fs-1_2{font-size: 1.2rem;}
 
+/* list properties */
+ul{list-style: none;}
+ul li a{text-decoration: none;}
 
 /* button hover effects */
 .btn.btn-dark:hover{outline: none; border: 1px solid; box-shadow: 0 0 0 2px black;}
@@ -32,17 +34,15 @@ h2{font-size: 45px;}
 .btn.ms-btn-light:hover{outline: none; border: 1px solid #bebcbb; box-shadow: 0 0 0 2px rgba(248, 249, 250, 0.7);}
 .btn.btn-light:hover{outline: none; border: 1px solid; box-shadow: 0 0 0 2px #f8f9fa;}
 
+
 /* HEADER */
-header{
-    z-index: 9999;
-}
+header{z-index: 9999;}
+header .header-top img{width: 100px;}
+.header-top{height: 30px;}
 
-header .header-top img{
-    width: 100px;
-}
-
-.header-top{
-    height: 30px;
+/* navbar */
+.nav-item a:hover{
+    color: #0b5ed7 !important;
 }
 
 /* start animation to turn dropdown arrow */
@@ -62,32 +62,29 @@ header .header-top img{
 }
 
 /* BONUS */
+.box-ps5:hover{box-shadow: 0 0 10px 2px lightgrey;}
 
-ul.dropdown-item{
-    list-style: none;
+ul.ms-dropdown-item li a{color: black;}
+ul.ms-dropdown-item li::before {
+    content: "\2022";
+    color: blue;
+    margin-right: 0.5rem;
 }
 
-ul.dropdown-item li a{
-    text-decoration: none;
-    color: black;
-}
 
 /* JUMBOTRON */
-.jumbotron{
+#jumbotron{margin-top: 100px;}
+
+/* jumbotron top */
+.jumbotron-top{
     background-image: url('../img/jumbo-bg.png');
     background-size: cover;
     background-position: center;
-    margin-top: 100px;
 }
 
-.jumbotron-bottom .box-img{
-    transition: transform ease 0.3s;
-}
-
-.jumbotron-bottom .box-img:not(.active){
-    opacity: 0.7;
-}
-
+/* jumbotron bottom */
+.jumbotron-bottom .box-img{transition: transform ease 0.3s;}
+.jumbotron-bottom .box-img:not(.active){opacity: 0.7;}
 .jumbotron-bottom .box-img:hover{
     transform: translateY(-10px);
     box-shadow: 0 10px 10px lightgray;
@@ -95,48 +92,24 @@ ul.dropdown-item li a{
 }
 
 /* MAIN */
+/* Accessori ps5 */
+.box-img.not-active{opacity: 0.7;}
+.box-img.not-active:hover{opacity: 1;}
+
+/* it takes two */
 #it-takes-two{
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
     background-size: cover;
     background-position: center;
 }
 
-#play-plus{
-    background-color: #bebcbb;
-}
-
-#play-now{
-    background-color: #161c3b;
-}
-
-.box-img.not-active{
-    opacity: 0.7;
-}
-
-.box-img.not-active:hover{
-    opacity: 1;
-}
+/* playstation plus */
+#play-plus{background-color: #bebcbb;}
+/* playstation now */
+#play-now{background-color: #161c3b;}
 
 /* FOOTER */
-footer{
-    background-color: #00439c;
-}
-
-footer img.globe{
-    width: 30px;
-}
-
-footer ul{
-    list-style: none;
-}
-
-footer ul li a{
-    color: white;
-    text-decoration: none;
-    line-height: 30px;
-}
-
-footer ul li a:hover{
-    color: white;
-    text-decoration: underline;
-}
+footer{background-color: #00439c;}
+footer img.globe{width: 30px;}
+footer ul li a{color: white; line-height: 30px;}
+footer ul li a:hover{color: white; text-decoration: underline;}
