@@ -20,6 +20,13 @@
     cursor: pointer;
 }
 
+/* button hover effects */
+.btn.btn-dark:hover{outline: none; border: 1px solid; box-shadow: 0 0 0 2px black;}
+.btn.ms-bg-btn:hover{outline: none; border: 1px solid black; box-shadow: 0 0 0 2px #cd3d0f;}
+.btn.btn-primary:hover{outline: none; border: 1px solid; box-shadow: 0 0 0 2px #0b5ed7;}
+.btn.ms-btn-light:hover{outline: none; border: 1px solid #bebcbb; box-shadow: 0 0 0 2px rgba(248, 249, 250, 0.7);}
+.btn.btn-light:hover{outline: none; border: 1px solid; box-shadow: 0 0 0 2px #f8f9fa;}
+
 /* HEADER */
 header{
     z-index: 9999;
@@ -51,6 +58,17 @@ header .header-top img{
     border-radius: 0;
     margin-top: 0 !important;
     width: 100vw;
+}
+
+/* BONUS */
+
+ul.dropdown-item{
+    list-style: none;
+}
+
+ul.dropdown-item li a{
+    text-decoration: none;
+    color: black;
 }
 
 /* JUMBOTRON */
